@@ -150,7 +150,7 @@ by the HURD to reference the inode of a program which will be used to
 interpret this object.  Most of the remaining reserved fields have been
 used up for both Linux and the HURD for larger owner and group fields,
 The HURD also has a larger mode field so it uses another of the remaining
-fields to store the extra more bits.
+fields to store the extra mode bits.
 
 There are pointers to the first 12 blocks which contain the file's data
 in the inode.  There is a pointer to an indirect block (which contains
